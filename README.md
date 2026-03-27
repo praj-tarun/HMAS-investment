@@ -110,11 +110,3 @@ src/
 holdings/               Put broker xlsx statements here (gitignored)
 reports/                Generated reports (gitignored)
 ```
-
----
-
-## Notes
-
-- `portfolio_memory.json` and `holdings/` are gitignored — your personal financial data stays local
-- Reports in `reports/` are gitignored — generated output only
-- The 7-day stock cache in `src/history/` means Scout and Portfolio share analysis — running both modes back-to-back avoids redundant AI calls
