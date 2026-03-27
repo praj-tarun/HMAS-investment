@@ -1,0 +1,61 @@
+# ── Secrets — NEVER commit ────────────────────────────────────────────────────
+.env
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ── Personal financial data — NEVER commit ────────────────────────────────────
+# your holdings, entry prices, P&L
+portfolio_memory.json
+# broker statement uploads
+holdings/*.xlsx
+holdings/*.csv
+holdings/*.xls
+
+# ── Generated reports and runtime files ──────────────────────────────────────
+.last_report.json
+.last_report_portfolio.json
+.last_report_scout.json
+# per-run JSON archive (personal analysis data)
+reports/portfolio/
+reports/scout/
+# live run logs and status flags
+reports/running_*.log
+reports/running_*.status
+# generated markdown reports
+reports/*.md
+
+# ── Agent cache and intel history (generated, not source) ─────────────────────
+data/intel_history/
+data/macro_chain_cache.json
+src/history/*.json
+
+# ── Generated personal analysis data (AI output, not source) ─────────────────
+# AI scout run history with your stock picks
+data/scout_history.json
+# per-stock AI analysis with entry zones, stop-losses
+data/stock_history/
+
+# ── OS and IDE files ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Claude Code project files (local only) ───────────────────────────────────
+.claude/

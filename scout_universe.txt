@@ -1,0 +1,50 @@
+# SCOUT UNIVERSE — tickers scanned by `python run.py scout`
+#
+# One ticker per line. Use NSE format (append .NS for stocks).
+# ETFs also use .NS suffix on NSE (e.g., NIFTYBEES.NS, GOLDBEES.NS).
+# Lines starting with # are comments.
+# Sectors are for readability only — the system ignores them.
+#
+# Edit this file freely. Restart is not required.
+# If this file is deleted, the system falls back to built-in defaults.
+
+# ── Banking & Finance ──────────────────────────────────────────
+HDFCBANK.NS
+ICICIBANK.NS
+AXISBANK.NS
+KOTAKBANK.NS
+SBIN.NS
+
+# ── IT / Technology ───────────────────────────────────────────
+TCS.NS
+INFY.NS
+HCLTECH.NS
+
+# ── Energy & Oil ──────────────────────────────────────────────
+RELIANCE.NS
+ONGC.NS
+
+# ── FMCG / Consumer ───────────────────────────────────────────
+ITC.NS
+HINDUNILVR.NS
+
+# ── Automobiles ───────────────────────────────────────────────
+MARUTI.NS
+TATAMOTORS.NS
+
+# ── Pharma ────────────────────────────────────────────────────
+SUNPHARMA.NS
+
+# ── Metals ────────────────────────────────────────────────────
+TATASTEEL.NS
+
+# ── Telecom ───────────────────────────────────────────────────
+BHARTIARTL.NS
+
+# ── Power / Infrastructure ────────────────────────────────────
+NTPC.NS
+
+# ── ETFs ──────────────────────────────────────────────────────
+NIFTYBEES.NS    # Nifty 50 Index ETF — broad market
+GOLDBEES.NS     # Gold ETF — safe haven / inflation hedge
+BANKBEES.NS     # Bank Nifty ETF — rate-sensitive sector play
